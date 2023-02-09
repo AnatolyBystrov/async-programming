@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/movie.css">
+    <link rel="shortcut icon" href="/video/7267937.png"
+        type="image/x-icon">
+</head>
+
+<header id="header"> Tel Ran Video Player </header>
+
+<body>
+    <section class="field">
+        <input type="text" id="link-of-video" placeholder="Put link for video">
+        <input type="number" id="Video-playback-time" placeholder="Video playback time (seconds)">
+        <button class="submit" type="submit">Submit</button>
+    </section>
+
+    <video class=video
+        controls width="600" height="400" style="display: none;"></video>
+    <section class="video-player" style="display: none;"></section>
+    <script src="/src/main.js" type="module"></script>
+</body>
+
+</html>

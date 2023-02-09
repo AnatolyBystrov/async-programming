@@ -1,0 +1,44 @@
+body
+{
+    background: url(/video/Salle-de-cinéma-_-630x405-_-©-Fotolia-he2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+}
+.video 
+{
+    display: none;
+    justify-content: center; 
+    margin: 0 auto;
+    text-align: center;
+}
+#header
+{
+    font-size: 250%;
+    justify-content: center; 
+    display: flex;
+    color: aliceblue;
+}
+.field
+{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    justify-content: center; 
+    display: flex;
+}
+#Video-playback-time
+{
+    margin-right: 2vw;
+    margin-left: 2vw;
+    width: 196px;
+}
+.result
+{
+    display: block;
+    justify-content: center; 
+    margin: 0 auto;
+    text-align: center; 
+    margin-top: 3vh;
+    size: 150%;
+    color: aliceblue;
+}
