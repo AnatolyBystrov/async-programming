@@ -18,7 +18,7 @@ export class DataForm
     {
         const parentElementforinput = document.querySelector(parentClassforinput);
         parentElementforinput.innerHTML=`
-        <div class="form-select-group"><label>Select video</label><select name="video" id="select-video" class="form-select"><option value="uuuu"></option></select></div>
+        <div class="form-select-group"><label class ="label">Select video</label><select name="video" id="select-video" class="form-select"><option value="uuuu"></option></select></div>
         <input type="number" id="Video-playback-time" placeholder="Video playback time (seconds)">
         <button class = "submit" type="submit">Submit</button>`;  
     }
