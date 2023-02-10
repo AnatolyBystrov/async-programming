@@ -1,6 +1,14 @@
-import { event } from "./ui/playvideo.js";
+import { DataForm } from "./ui/inputDataForms.js";
 
-event();
+const data = new DataForm(".field");
+data.addHandler();
+
+
+// import { DataForm } from "./ui/inputDataForms.js";
+// const data = new DataForm(".field");
+
+// data.addHandler();
+
 
 // import { sleep } from "./utils/sleep.js"
 // const TIMEOUT = 5000;
