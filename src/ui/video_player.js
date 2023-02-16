@@ -16,13 +16,16 @@ export class Jopa
         this.player.src =url;
         this.player.style.display = "block";
     }
-    start()
-    {
-        this.player.play()
+    async start()
+    { try{
+       await this.player.play()
+    } catch(e){
+        alert(`Wrong link ${this.player.play} message: ${e}`)
     }
     stop()
     {
         this.player.pause();
         this.player.style.display = "none";
     }
+}
 }
